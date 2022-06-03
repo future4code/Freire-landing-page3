@@ -1,0 +1,83 @@
+body{
+    font-family: 'Hind Madurai', sans-serif;
+    margin: 0px;
+    background-color: lightyellow;
+}
+.pratos{
+    display: flex;
+    margin: 20px 50px 50px 50px;
+}
+
+
+.container-promo{
+    background-color: orangered;
+    padding: 50px;
+    text-align: center;
+}
+
+.ofertas{
+    display: flex;
+    margin: 50px;
+}
+
+h5{
+    text-decoration: line-through;
+    margin: 5px;
+}
+div>img{
+    height: 200px;
+    width: 250px;
+}
+
+.ofertas>div{
+    margin: auto;
+    background-color: orangered;
+    box-shadow: 10px 10px 10px lightgrey;
+    padding-bottom: 10px;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+
+}
+
+.pratos>div{
+   
+    justify-content: center;
+    justify-self: center;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px lightgrey;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+
+
+.kits{
+    display: flex;
+    text-align: center;
+    background-color:orange;
+}
+#foto-marmita{
+    height: 350px;
+    width: 450px;
+    margin: 40px;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+#marmita{
+    align-self: center;
+}
+
+.titulo{
+    margin: 50px 50px 0px 80px;
+}
+
+.img-desc{
+    width: auto;
+    height: 150px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 150px;
+}
