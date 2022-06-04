@@ -28,9 +28,11 @@ main{
     padding: 6%;
     padding-top: 3%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    right: 100vr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    right: 100vh;
+    
+    
 }
 
 aside{
@@ -56,37 +58,45 @@ footer{
 }
 
 .img-primeiro{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    
 
 }
 .manu-nav{
     padding: 10px;
-    grid-template-rows: repeat(18, 1fr 1fr);
+    grid-template-rows: repeat(15, 1fr 1fr);
     display: grid;
     border-radius: 10px; 
+    
    
 }
 .menu-letra{
     color: rgb(2, 5, 5);
-    text-decoration: none;
-    text-shadow: 1px 2px 3px 2px black;
+    text-decoration-line: none;
+    
 
+    
 }
 .img-div{
     border: 1px solid black;
-    height: 277px;
-    width: 200px;
+    height: 330px;
+    width: 250px;
     box-shadow: 3px 2px 8px 1px black;
     margin: 10px;
     text-align: center;
-    background-color: burlywood;
+    background-color: rgb(161, 153, 40);
     border-radius: 6px;
     margin-bottom: 1cm;
 }
-button{
+main div p button{
     border-radius: 5px;
     padding: 2px;
     margin: 10px;
+    cursor: pointer;
+    background-color: rgb(200, 201, 189);
 }
+
