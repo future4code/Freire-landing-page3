@@ -63,7 +63,7 @@ footer{
 }
 .manu-nav{
     padding: 10px;
-    grid-template-rows: repeat(15, 1fr 1fr);
+    grid-template-rows: repeat(18, 1fr 1fr);
     display: grid;
     border-radius: 10px; 
    
