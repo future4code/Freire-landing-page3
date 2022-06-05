@@ -5,24 +5,32 @@ body{
 }
 .pratos{
     display: flex;
-    margin: 20px 50px 50px 50px;
+    margin: 2% 5% 5% 5%;
 }
 
 
 .container-promo{
     background-color: orangered;
-    padding: 50px;
+    padding: 5%;
     text-align: center;
+}
+ 
+.img-desc{
+    width: 10%;
+    height: 10%;
+    float: right;
+    margin-left: 0%;
+    margin-right: 20%;
 }
 
 .ofertas{
     display: flex;
-    margin: 50px;
+    margin: 5%;
 }
 
 h5{
     text-decoration: line-through;
-    margin: 5px;
+    margin: 5%;
 }
 div>img{
     height: 200px;
@@ -53,44 +61,72 @@ div>img{
 
 
 
-.kits{
+ .kits{
     display: flex;
     text-align: center;
     background-color:orange;
+    width: 100%;
+    font: 1em sans-serif;
 }
 #foto-marmita{
-    height: 350px;
-    width: 450px;
-    margin: 40px;
-    margin-right: 200px;
-    margin-left: 100px;
+    height: auto;
+    width: 50%;
+   margin:auto;
 }
 
 #marmita{
     align-self: center;
-}
+    background-color: orange;
+    width: 50% ;
+    margin: auto;
+} 
 
 .titulo{
     margin: 50px 50px 0px 80px;
 }
 
-.img-desc{
-    width: auto;
-    height: 150px;
-    float: right;
-    margin-left: 0px;
-    margin-right: 150px;
-}
+
 
 @media screen and (max-width: 450px){
+    img{
+        max-width: 100%;
+    }
+    .pratos, .ofertas{
+     display: block;
+     margin-inline: auto;
+     width: min(90%, 70.5rem);
+    }
 
-    .pratos{
+    .pratos>div{
+        margin-block: 7%;
+        box-shadow: none;
+        background-color: white;
+        padding-top: 5%;
+      
+    }
 
-    display: block;
+    .ofertas>div{
+        margin-block: 7%;
+        box-shadow: none;
+        padding-top: 5%;
+     
     }
     body{
         width: 100%;
         margin: 0px;
+        background-color: lightyellow;
+    }
+
+    .img-desc{
+        display: none;
+    }
+
+    #foto-marmita{
+        display: none;
+    }
+
+    .kits{
+        padding-bottom: 5%;
     }
 
 }
