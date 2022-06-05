@@ -80,7 +80,8 @@ header{
     background-color: orangered;
     border-radius: 6px;
     padding: 2.5vh 2vw;
-    border-color: orangered
+    border-color: orangered;
+    color: white;
 }
 
 .sacola:hover{
@@ -117,6 +118,7 @@ input:focus{
     border-radius: 6px ;
     background-color: orangered;
     border-color: orangered;
+    color: white;
 }
 .botao2:hover{
     background-color: orangered;
@@ -307,6 +309,9 @@ footer > h3{
         box-shadow: none;}
     .conteudo > div{
         width: 80%;
+    }
+    .conteudo > h2{
+        text-transform: lowercase;
     }
     .carrinho{
         width: 45%;
