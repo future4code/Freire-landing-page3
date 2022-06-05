@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 220px 5fr;
+    grid-template-rows: 100px 3fr 1fr 100px;
+    grid-template-areas: "h h"
+                         "s m"
+                         "s m"
+                         "f f";
+}                  
+
+header{
+    background-color: lightyellow;
+    grid-area: h;
+    border: 0.3px solid black;
+    
+}
+
+main{
+    background-color: lightyellow;
+    grid-area: m;
+    padding: 6%;
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+   
+    
+    
+}
+
+aside{
+    
+    background-color: lightyellow;
+    grid-area: s;
+    border: 0.3px solid black;
+    box-shadow: 0 3px 7px 2px black;
+    
+
+    
+
+}
+
+footer{
+    background-color:lightyellow;
+    grid-area: f;
+    position: fixed;
+    bottom: 0;  
+    text-align: center;
+    border: 0.3px solid black;
+    box-shadow: 0px 2px 7px 3px black;
+    width: 100%;
+    
+    padding: 1%;
+}
+
+.img-primeiro{
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    
+
+}
+.manu-nav{
+    padding: 10px;
+    grid-template-rows: repeat(25, 1fr 1fr);
+    display: grid;
+    height: 100%;
+   
+    
+   
+}
+.menu-letra{
+    color: rgb(2, 5, 5);
+    text-decoration-line: none;
+    margin-left: 6%;
+    
+
+    
+}
+.img-div{
+    border: 1px solid black;
+    height: 330px;
+    width: 250px;
+    box-shadow: 3px 2px 8px 1px black;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(161, 153, 40);
+    border-radius: 6px;
+    margin-bottom: 1cm;
+}
+main div p button{
+    border-radius: 5px;
+    padding: 2px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(200, 201, 189);
+}
+@media screen and (max-device-width : 480px) {
+    /* celulares */
+
+    main{
+        background-color: lightyellow;
+    }
+    }
+
