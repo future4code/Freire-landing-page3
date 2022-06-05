@@ -67,6 +67,7 @@ header{
     padding: 1vh 3vw;
     border-radius: 10px;
     font-size: 105%;
+    color: black;
     
 }
 .login:hover{
@@ -289,6 +290,11 @@ footer > h3{
         display: block;
         margin-top: -5.5vh;
         margin-left: 13vw;
+        
+    }
+    .login:hover{
+        background-color: white;
+        text-decoration: underline;
         
     }
     .sacola:hover{
