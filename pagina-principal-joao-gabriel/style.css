@@ -330,6 +330,9 @@ footer > h3{
         height: 60%;
         
     }
+    .link1:visited {
+        color: black;
+      }
     /* FOOOTER*/
 
     footer{
